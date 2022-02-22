@@ -1102,7 +1102,13 @@ position: relative;
 }
 
 
-
+/* animación y rama */
+.img:hover{
+  cursor: pointer;
+  transform: scale3d(1.5, 1.5, 0.2);
+  transition: all 0.5s;
+  border-radius: 10px;
+}
 
 
 
